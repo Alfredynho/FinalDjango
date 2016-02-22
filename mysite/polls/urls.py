@@ -1,6 +1,6 @@
 from django.conf.urls import url
 #Primeros pasos
-#Esto no se vera
+#esta es mi rama primero
 from . import views
 
 urlpatterns = [
