@@ -1,6 +1,6 @@
 from django.conf.urls import url
 #Primeros pasos
-#esta es mi rama master en GitHub
+#esta es mi rama master
 from . import views
 
 urlpatterns = [
