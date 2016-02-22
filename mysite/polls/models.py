@@ -2,6 +2,8 @@ from __future__ import unicode_literals
 from django.utils.encoding import python_2_unicode_compatible
 from django.db import models
 from django.utils import timezone
+import datetime
+
 # Create your models here.
 @python_2_unicode_compatible  #Si solo es necesario para apoyar a python2
 class Question(models.Model):
