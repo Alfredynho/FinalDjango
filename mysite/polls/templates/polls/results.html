@@ -1,0 +1,11 @@
+<h1>{{ question.question_text }}</h1>
+<h1>Se registro en {{ question.pub_date }}</h1>
+<ul>
+<!-- iterando sobre question.choice_set.all para los votos y resultados-->
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:detail' question.id %}">Volver a Votar?</a></br>
+<a href="{% url 'polls:index' %}">Volver a inicio?</a>
