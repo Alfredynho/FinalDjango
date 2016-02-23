@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+li a {
+    color:green;
+  	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+}
+
+p {
+	color: #E14343;
+}
+
+body {
+	background-color: #80CBC4;
+}
+
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 28px;
+}
+/*
+body {
+    background: white url("images/Material-Design-23.jpg") no-repeat right bottom;
+}*/
